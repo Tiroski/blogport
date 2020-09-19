@@ -81,7 +81,7 @@ body {
 }
 
 body {
-  /* background: #0a0809; */
+  background: #0a0809;
   font-family: "librebaskerville-regular", serif;
   font-size: 1.6rem;
   line-height: 1.875;
@@ -1722,6 +1722,7 @@ input::-moz-focus-inner {
 
   .header-logo2 {
     left: 10px;
+    display: inline-block;
   }
 
   .header-logo2 {
@@ -1729,7 +1730,7 @@ input::-moz-focus-inner {
     position: absolute;
     margin: 0;
     padding: 0;
-    left: 20px;
+    left: 10px;
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -1782,9 +1783,6 @@ input::-moz-focus-inner {
   }
   .s-header {
     background-color: black;
-  }
-  .header-menu-toggle {
-    margin-right: 5%;
   }
 }
 
