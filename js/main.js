@@ -3,6 +3,13 @@
  *
  * ------------------------------------------------------------------- */
 
+/* ------------------Calculating day being alive------------------ 
+var days = Math.round(
+  (new Date() - new Date(1991, 05, 3)) / (1000 * 60 * 60 * 24)
+);
+document.getElementById("days").innerHTML = days;
+/* ------------------Calculating day being alive------------------ */
+
 (function ($) {
   "use strict";
 
