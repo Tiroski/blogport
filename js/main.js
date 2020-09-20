@@ -234,6 +234,7 @@
 
   /* Stat Counter
    * ------------------------------------------------------ */
+
   var ssStatCount = function () {
     var statSection = $(".s-stats"),
       stats = $(".stats__count");
