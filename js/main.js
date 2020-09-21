@@ -255,7 +255,7 @@ document.getElementById("days").innerHTML = days;
             $({ Counter: 0 }).animate(
               { Counter: $this.text() },
               {
-                duration: 4000,
+                duration: 5000,
                 easing: "swing",
                 step: function (curValue) {
                   $this.text(Math.ceil(curValue));
