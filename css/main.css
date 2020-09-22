@@ -224,6 +224,7 @@ h6,
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 0.16rem;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 p img {
