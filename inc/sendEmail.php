@@ -1,9 +1,9 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'tiroskifamis@hotmail.com';
+$siteOwnersEmail = "tiroskifamis@hotmail.com";
 
-
+        
 if($_POST) {
 
     $name = trim(stripslashes($_POST['contactName']));
