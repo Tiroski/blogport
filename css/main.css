@@ -2014,7 +2014,7 @@ input::-moz-focus-inner {
   transition: all 0.5s ease-in-out;
 }
 
-.home-social i {
+.home-social I {
   font-size: 1.8rem;
   right: 0;
   -webkit-transform: scale(0.7);
@@ -2044,7 +2044,7 @@ input::-moz-focus-inner {
   transform: scale(1);
 }
 
-.home-social li:hover i {
+.home-social li:hover I {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -2602,7 +2602,7 @@ html.no-csstransitions .home-content__main {
   transform: translate3d(-100%, 0, 0);
 }
 
-.item-folio__project-link i {
+.item-folio__project-link I {
   font-size: 1.8rem;
   line-height: 4.2rem;
 }
@@ -3018,7 +3018,7 @@ html.no-csstransitions .home-content__main {
   text-align: left;
 }
 
-.stats__upsign i {
+.stats__upsign I {
   font-size: 2.1rem;
   line-height: 1;
   color: #cf3e3e;
@@ -3272,7 +3272,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .message-warning i,
-.message-success i {
+.message-success I {
   margin-right: 10px;
   font-size: 1.2rem;
 }
@@ -3459,7 +3459,7 @@ footer a:focus {
   padding-left: 0.9rem;
 }
 
-.footer-social li i {
+.footer-social li I {
   font-size: 1.7rem;
   line-height: 3rem;
   vertical-align: middle;
@@ -3531,7 +3531,7 @@ footer a:focus {
 }
 
 .go-top a i,
-.go-top a:visited i {
+.go-top a:visited I {
   font-size: 12px;
   line-height: inherit;
 }
@@ -3554,7 +3554,7 @@ footer a:focus {
   .footer-social li::after {
     display: none;
   }
-  .footer-social li i {
+  .footer-social li I {
     font-size: 2.4rem;
   }
   .footer-bottom {
@@ -3575,7 +3575,7 @@ footer a:focus {
   .footer-social li {
     margin-right: 1.2rem;
   }
-  .footer-social li i {
+  .footer-social li I {
     font-size: 2.2rem;
   }
 }
