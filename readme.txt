@@ -71,7 +71,7 @@ SUPPORT:
 Since SUBLIME is distributed for free, support is not offered. SUBLIME is coded according 
 to current web standards and we did our best to make the template easy to use and modify.
 If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
+However, If you're still new to HTML and CSS, i suggest that you visit the 
 following tutorials:
 
  - https://webdesign.tutsplus.com/courses/30-days-to-learn-html-css

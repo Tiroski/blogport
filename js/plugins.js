@@ -1495,7 +1495,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
               backward: "up",
             },
           };
-        for (var I in e) {
+        for (var i in e) {
           var o = e[i],
             n = o.newScroll > o.oldScroll,
             r = n ? o.forward : o.backward;
@@ -1527,7 +1527,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
       (e.prototype.destroy = function () {
         var t = [];
         for (var e in this.waypoints)
-          for (var I in this.waypoints[e]) t.push(this.waypoints[e][i]);
+          for (var i in this.waypoints[e]) t.push(this.waypoints[e][i]);
         for (var o = 0, n = t.length; n > o; o++) t[o].destroy();
       }),
       (e.prototype.refresh = function () {
@@ -1646,7 +1646,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
         this.triggerQueues = { up: [], down: [], left: [], right: [] };
       }),
       (i.prototype.flushTriggers = function () {
-        for (var I in this.triggerQueues) {
+        for (var i in this.triggerQueues) {
           var o = this.triggerQueues[i],
             n = "up" === i || "left" === i;
           o.sort(n ? e : t);
@@ -1816,16 +1816,14 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
     0 == a.length
       ? (this.$slider = t("<img />").prependTo(this.$mirror))
       : ((this.$slider = a.prependTo(this.$mirror)), (n = !0)),
-      this.$mirror
-        .addClass("parallax-mirror")
-        .css({
-          visibility: "hidden",
-          zIndex: this.zIndex,
-          position: "fixed",
-          top: 0,
-          left: 0,
-          overflow: "hidden",
-        }),
+      this.$mirror.addClass("parallax-mirror").css({
+        visibility: "hidden",
+        zIndex: this.zIndex,
+        position: "fixed",
+        top: 0,
+        left: 0,
+        overflow: "hidden",
+      }),
       this.$slider.addClass("parallax-slider").one("load", function () {
         (h.naturalHeight && h.naturalWidth) ||
           ((h.naturalHeight = this.naturalHeight || this.height || 1),
@@ -2334,7 +2332,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
   })(window, function (t, e) {
     var i = {};
     (i.extend = function (t, e) {
-      for (var I in e) t[i] = e[i];
+      for (var i in e) t[i] = e[i];
       return t;
     }),
       (i.modulo = function (t, e) {
@@ -2490,7 +2488,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
       }),
       (d.css = function (t) {
         var e = this.element.style;
-        for (var I in t) {
+        for (var i in t) {
           var n = u[i] || i;
           e[n] = t[i];
         }
@@ -2592,7 +2590,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
         if (!parseFloat(this.layout.options.transitionDuration))
           return void this._nonTransition(t);
         var e = this._transn;
-        for (var I in t.onTransitionEnd) e.onEnd[i] = t.onTransitionEnd[i];
+        for (var i in t.onTransitionEnd) e.onEnd[i] = t.onTransitionEnd[i];
         for (i in t.to)
           (e.ingProperties[i] = !0), t.isCleaning && (e.clean[i] = !0);
         if (t.from) {
@@ -2648,7 +2646,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
       }),
       (d._removeStyles = function (t) {
         var e = {};
-        for (var I in t) e[i] = "";
+        for (var i in t) e[i] = "";
         this.css(e);
       });
     var f = {
@@ -2695,7 +2693,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
       (d.getHideRevealTransitionEndProperty = function (t) {
         var e = this.layout.options[t];
         if (e.opacity) return "opacity";
-        for (var I in e) return i;
+        for (var i in e) return i;
       }),
       (d.hide = function () {
         (this.isHidden = !0), this.css({ display: "" });
@@ -7721,7 +7719,7 @@ https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
             q.parseShareButtonOut && (f = q.parseShareButtonOut(a, f));
         (i.children[0].innerHTML = f), (i.children[0].onclick = G);
       },
-      I = function (a) {
+      i = function (a) {
         for (var c = 0; c < q.closeElClasses.length; c++)
           if (b.hasClass(a, "pswp__" + q.closeElClasses[c])) return !0;
       },
