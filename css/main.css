@@ -4254,3 +4254,14 @@ article.blog-single .blog-content {
     display: none;
   }
 }
+.blogPic,
+a {
+  text-align: center;
+  font-size: small;
+}
+
+.blogPic2 img {
+  width: 400px;
+  margin-left: auto;
+  border: 0.5px solid black;
+}
